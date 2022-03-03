@@ -38,9 +38,8 @@ Style/AndOr:
   Enabled: false
 Style/DefWithParentheses:
   Enabled: false
-Style/FrozenStringLiteralComment:
-  EnforcedStyle: never
-  Enabled: true
+# Style/FrozenStringLiteralComment:
+#   EnforcedStyle: never
 Layout/HashAlignment:
   EnforcedColonStyle: key
 Layout/ExtraSpacing:
