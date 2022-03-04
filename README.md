@@ -46,6 +46,33 @@ rails s
 
 Open http://localhost:3000/ in your browser.
 
+
+### Run tests
+
+Install npm with:
+
+```
+npm i
+```
+
+Install rspec with:
+
+```
+bundle install
+```
+
+and
+
+```
+rails generate rspec:install
+```
+
+run the test with:
+
+```
+rspec spec
+```
+
 ## Author
 
 👤 **[ishimwezachee](https://github.com/ishimwezachee)**
@@ -66,8 +93,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- A special thanks to Microverse for inspiring this project. 
+- This project built in MICROVERSE.
 
 ## 📝 License
 
-This project is [MIT](./LICENCE) licensed.
+This project is [MIT](./MIT.md) licensed.
