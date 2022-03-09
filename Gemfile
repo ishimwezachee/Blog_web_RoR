@@ -1,16 +1,15 @@
 source 'https://rubygems.org'
+
+gem 'rubocop', '>= 1.0', '< 2.0'
+
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.5'
 gem 'ffi'
-gem 'rubocop', '>= 1.0', '< 2.0'
-
-gem 'rails-controller-testing'
-gem 'rspec', '~>3.0'
-gem 'rspec-rails'
-
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.2', '>= 7.0.2.2'
+
+gem 'rails-controller-testing'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
@@ -56,7 +55,6 @@ gem 'bootsnap', require: false
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem 'capybara'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
 end
 
@@ -71,13 +69,13 @@ group :development do
   # gem "spring"
 end
 
+group :test, :development do
+  gem 'rspec-rails', '~> 5.0.0'
+end
+
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+  gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
-  # Easy installation and use of web drivers to run system tests with browsers
-  gem 'database_cleaner'
-  gem 'factory_bot_rails', '~> 4.0'
-  gem 'faker'
-  gem 'shoulda-matchers', '~> 3.1'
 end

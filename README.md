@@ -1,6 +1,10 @@
-# Blog
+# Blog-website
 
-The Blog app is an example of a blog website. It's a functional website that shows the list of posts and enable users to interact with it by adding comments and liking posts.
+The Blog app is a classic example of a blog website. It's a functional website that shows the list of posts and empower readers to interact with them by adding comments and liking posts.
+
+## Entity Relationship Diagram
+
+![](./blog_app.png)
 
 ## Built With
 
@@ -11,9 +15,9 @@ The Blog app is an example of a blog website. It's a functional website that sho
 
 To get a local copy up and running follow these simple example steps.
 
-git clone https://github.com/ishimwezachee/Blog.git
+git clone https://github.com/RolandM99/Blog-website.git
 
-cd Blog
+`cd Blog-webse`
 
 ### Prerequisites
 
@@ -44,8 +48,7 @@ Start server with:
 rails s
 ```
 
-Open http://localhost:3000/ in your browser.
-
+This will Open http://localhost:3000/ in your browser.
 
 ### Run tests
 
@@ -58,34 +61,30 @@ npm i
 Install rspec with:
 
 ```
-bundle install
-```
-
-and
-
-```
 rails generate rspec:install
 ```
 
 run the test with:
 
 ```
-rspec spec
+$ rspec spec
+$ bundle exec rspec
 ```
 
 ## Author
 
-👤 **[ishimwezachee](https://github.com/ishimwezachee)**
+👤 **Roland N. Mweze**
 
-- GitHub: [@zachee-ishimwe](https://github.com/ishimwezachee)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zachee-ishimwe/)
+- [Github](https://github.com/rolandm99)
+- [Twitter](https://github.com/manfulmwez)
+- [LinkedIn](https://www.linkedin.com/in/roland-mweze/)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ishimwezachee/Blog/issues).
+Feel free to check the [issues page](https://github.com/RolandM99/Blog-website.git/issues).
 
 ## Show your support
 
@@ -93,8 +92,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- This project built in MICROVERSE.
+- A special thanks to Microverse for inspiring this project. 
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENCE) licensed.
