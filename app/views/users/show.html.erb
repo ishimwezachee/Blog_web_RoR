@@ -3,7 +3,7 @@
 <%= image_tag("id.png", size: "300x100", :alt => "user foto") %>
 <div>
 User Name:<%= @user.name%>
-Number Of Posts: <%= @user.post_counter%>
+Number Of Posts: <%= @user.post_ids.count%>
 </div>
 <div>
 <%= @user.bio%>
@@ -16,7 +16,7 @@ Number Of Posts: <%= @user.post_counter%>
 <%= post.text  %>
 </div>
 <div>
-comment_counter:<%= post.comment_counter%><span>
+comment_counter:<%= post.author.comment_ids.count%><span>
 likes_counter:<%= post.likes_counter%>
 </div>
 
