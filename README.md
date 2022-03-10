@@ -1,4 +1,4 @@
-# Blog-website
+# Blog
 
 The Blog app is a classic example of a blog website. It's a functional website that shows the list of posts and empower readers to interact with them by adding comments and liking posts.
 
@@ -15,9 +15,9 @@ The Blog app is a classic example of a blog website. It's a functional website t
 
 To get a local copy up and running follow these simple example steps.
 
-git clone https://github.com/RolandM99/Blog-website.git
+git clone https://github.com/ishimwezachee/Blog.git
 
-`cd Blog-webse`
+`cd Blog`
 
 ### Prerequisites
 
@@ -70,14 +70,12 @@ run the test with:
 $ rspec spec
 $ bundle exec rspec
 ```
-
 ## Author
 
-👤 **Roland N. Mweze**
+👤 **Zachee Ishimwe**
 
-- [Github](https://github.com/rolandm99)
-- [Twitter](https://github.com/manfulmwez)
-- [LinkedIn](https://www.linkedin.com/in/roland-mweze/)
+- GitHub: [@zacheeIshimwe](https://github.com/ishimwezachee)
+- LinkedIn: [@zacheeIshimwe](https://www.linkedin.com/in/zachee-ishimwe-ab952a119/)
 
 
 ## 🤝 Contributing
