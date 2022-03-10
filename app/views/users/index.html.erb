@@ -1,3 +1,13 @@
-<h1>User Index</h1>
-<p>My-blog-app/views/users/index.html.erb</p>
-<p>Go to posts by clicking <a href="/users/index/posts">here</a></p>
+<h1>users index</h1>
+<% @users.each do |user| %>
+<div>
+<%= image_tag("id.png", size: "100x100", :alt => "user foto")%>
+<div>
+<%= link_to user_path(user.id) do %>
+  User: <%= user.name %><br>
+  <%end%>
+    <p class="posts">Number Of Posts: <%= user.post_ids.count%></p>
+</div>
+</div>
+<% end %>
+

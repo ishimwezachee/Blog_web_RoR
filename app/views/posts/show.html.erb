@@ -1,3 +1,10 @@
-<h1>Post #users content</h1>
-<p>My-blog-app/views/posts/show.html.erb</p>
-<p>Go back to user by clicking <a href="http://localhost:3000/users/index">here</a></p>
+<h1>This is user post</h1>
+Post # <%= params[:id] %>
+ <h3> <%= @post.title %> by <%= @user.name %> </h3>
+ <%= @post.text %>
+ <p>comment_counter:<%= @post.author.comment_ids.count%><span></p>
+<p>Likes(s): <%= @post.likes_counter%></p>
+
+  <% @comments.each do |comment| %>
+      <p><%= comment.author.name %>: <%= comment.text %></p>
+    <% end %>
