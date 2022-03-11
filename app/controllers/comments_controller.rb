@@ -15,10 +15,11 @@ class CommentsController < ApplicationController
     respond_to do |format|
       format.html do
         if @new_comment.save
+          flash.alert = 'Successful created'
           redirect_to "/users/#{@post.author_id}/posts/#{@post.id}", notice: 'Success!'
           # redirect_to user_post_path(@post.id, Post.find(params[:post_id]))
         else
-          render :new, alert: 'Failed to Create!'
+          render :new, flash.now[:error] = 'Failed to create comment'
         end
       end
     end
