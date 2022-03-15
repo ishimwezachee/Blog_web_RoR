@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
   #   User.first
   # end
   protect_from_forgery with: :exception
+
   protected
 
   def update_allowed_parameters
