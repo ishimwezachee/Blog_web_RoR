@@ -13,7 +13,7 @@ class CommentsController < ApplicationController
       end
     end
   end
-  
+
   def destroy
     previous_url = request.env['HTTP_REFERER']
     comment_to_delete = Comment.find(params[:comment_id])
@@ -25,7 +25,6 @@ class CommentsController < ApplicationController
     end
     redirect_to(previous_url)
   end
-   
 
   private
 

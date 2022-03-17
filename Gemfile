@@ -13,7 +13,7 @@ gem 'rails', '~> 7.0.2', '>= 7.0.2.2'
 gem 'pg', '~> 1.1'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
-# Use cancancan for Authorization 
+# Use cancancan for Authorization
 gem 'cancancan'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
