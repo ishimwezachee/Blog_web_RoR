@@ -78,6 +78,19 @@ $ bundle exec rspec
 - LinkedIn: [@zacheeIshimwe](https://www.linkedin.com/in/zachee-ishimwe-ab952a119/)
 
 
+👤 **Roland N. Mweze**
+
+- [Github](https://github.com/rolandm99)
+- [Twitter](https://github.com/manfulmwez)
+- [LinkedIn](https://www.linkedin.com/in/roland-mweze/)
+
+👤 **Munsa Mibenge**
+
+- GitHub: [@Munsa1](https://github.com/Munsa1)
+- Twitter: [@MibengeMunsa](https://twitter.com/MibengeMunsa)
+- LinkedIn: [munsa-mibenge](https://www.linkedin.com/in/munsa-mibenge/)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
