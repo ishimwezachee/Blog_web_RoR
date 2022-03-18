@@ -47,14 +47,15 @@ RSpec.feature 'Logins', type: :feature do
     @user1 = User.create(name: 'Raland', email: 'Raland@gmail.com', password: 'helloworld', confirmed_at: Time.now)
     @user2 = User.create(name: 'Munsa', email: 'Munsa@gmail.com', password: 'helloworld', confirmed_at: Time.now)
 
-    Post.create(title: 'Going to the money', text: 'Once opon time there was three programers who always find solutions for thier problems', author_id: @user2.id)
+    Post.create(title: 'Going to the money',
+                text: 'Once opon time there was 3 programers', author_id: @user2.id)
     within 'form' do
       fill_in 'Email', with: @user1.email
       fill_in 'Password', with: @user1.password
     end
     click_button 'Log in'
     find("a[href='#{user_path(@user2.id)}']").click
-    expect(page).to have_content 'Once opon time there was three programers who always find solutions for thier problems'
+    expect(page).to have_content 'Once opon time there was 3 programers'
   end
   # rubocop:enable Metrics/BlockLength
 end
